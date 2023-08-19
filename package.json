@@ -1,13 +1,12 @@
 {
-  "name": "movies-sp2-m4-vinisilvasn23",
-  "description": "Hoje você recebeu uma demanda inesperada. O gestor de uma _locadora de filmes_ entrou em contato solicitando seus serviços.",
   "version": "1.0.0",
   "main": "index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "scripts": {
-    "dev": "tsnd --cls --rs --ignore-watch node_modules src/app.ts"
+    "dev": "tsnd --cls --rs --ignore-watch node_modules src/app.ts",
+    "start": "npm run dev"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
